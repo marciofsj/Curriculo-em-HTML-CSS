@@ -13,10 +13,10 @@
 </head>
 <body>
     <header class="l-header" id="header">
-        <nav class="nav-box">
+        <nav class="bd-container">
             <a href="#" class="nav-logo">Marcio Fernandes Silva Junior</a>
             <div class="nav-menu">
-                <ul class="nav-lista">
+                <ul class="nav-list">
                     <li class="nav-item"> 
                         <a href="#home" class="nav-link">
                             <i class="nav-icon">Home</i>
@@ -60,22 +60,25 @@
                     </li>
                 </ul>
             </div>
+            <div class="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>        
         </nav>
     </header>
-    <main class="l-main" id="body-box"> 
+    <main class="l-main" id="bd-container"> 
         <div class="resume" id="area-cv">
             <div class="resume-left">
                 <!--home-->
                 <section class="home" id="home">
-                    <div class="home-box">
-                        <div class="home-logo">
+                    <div class="home-container section bd-grid">
+                        <div class="home-data bd-grid">
                             <img src="./assets/images/Foto.jpg" alt="Foto de perfil" class="home-img">
                             <h1 class="home-title">Marcio Fernandes Silva Junior</h1>
-                            <h3 class="home-subtitle">Full Stack Developer</h3>
+                            <h3 class="home-profession">Full Stack Developer</h3>
                         </div>
-                        <div class="home-address">
+                        <div class="home-address bd-grid">
                             <span class="home-information">
-                                <i class="bx bx-map home-icon">Pindamonhangaba - SP</i>
+                                <i class="bx bx-map home-icon">Pindamonhangaba-SP</i>
                             </span>
                             <span class="home-information">
                                 <i class="bx bx-envelope home-icon">marciofsj@hotmail.com</i>
@@ -85,19 +88,56 @@
                             </span>
                         </div>
                     </div>
-
                 </section>
+
                 <!--social-->
-                <section class="social" id="social">
+                <section class="social section">
+                    <h2 class="section-title">Social</h2>
+                    <div class="social-container bd-grid">
+                        <a href="https://www.linkedin.com/in/marcio-fernandes-jr-0a1362156/" target="_blank" class="social-link">
+                            <i class="bx bxl-linkedin-square social-icon"></i>@marcio-fernandes-jr
+                        </a>
+
+                        <a href="https://github.com/marciofsj" target="_blank" class="social-link">
+                            <i class="bx bxl-github social-icon"></i>@marciofsj
+                        </a>
+                    </div>
+                </section>
+
+                <!--profile-->
+                <section class="profile section">
+                    <h2 class="section-title">Profile</h2>
+                    <p class="profile-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laborum sit dignissimos ratione porro nulla blanditiis voluptate cumque reprehenderit debitis cum deserunt quaerat aliquid aspernatur architecto at corporis, deleniti optio.
+                    </p>
 
                 </section>
+
                 <!--education-->
-                <section class="education" id="education">
+                <section class="education section">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education-container bd-grid">
+                        <div class="education-content">
+                            <div class="education-time">
+                                <span class="education-round"></span>
+                                <span class="education-line"></span>
+                            </div>
+                            <div class="education-data bd-grid">
+                                <h3 class="education-subtitle">titulo</h3>
+                                <span class="education-studies">escola</span>
+                                <span class="education-year">2015</span>
+
+                            </div>
+                        </div>
+                    </div>
 
                 </section>
                 <!--skills-->
-                <section class="skills" id="skilss">
-
+                <section class="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="skills__content bd-grid">
+          
+                    </div>
                 </section>
             </div>
         </div>
