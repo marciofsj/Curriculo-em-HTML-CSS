@@ -13,9 +13,9 @@
 </head>
 <body>
     <header class="l-header" id="header">
-        <nav class="bd-container">
+        <nav class="nav bd-container">
             <a href="#" class="nav-logo">Marcio Fernandes</a>
-            <div class="nav-menu">
+            <div class="nav-menu" id="nav-menu">
                 <ul class="nav-list">
                     <li class="nav-item"> 
                         <a href="#home" class="nav-link">
@@ -60,12 +60,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="nav-toggle">
+            <div class="nav-toggle" id="nav-toggle">
                 <i class="bx bx-grid-alt"></i>
             </div>        
         </nav>
     </header>
-    <main class="l-main" id="bd-container"> 
+    <main class="l-main bd-container"> 
         <div class="resume" id="area-cv">
             <div class="resume-left">
                 <!--home-->
@@ -105,15 +105,15 @@
                 </section>
 
                 <!--profile-->
-                <section class="profile section">
+                <section class="profile section" id="profile">
                     <h2 class="section-title">Profile</h2>
                     <p class="profile-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laborum sit dignissimos ratione porro nulla blanditiis voluptate cumque reprehenderit debitis cum deserunt quaerat aliquid aspernatur architecto at corporis, deleniti optio.
+                        Estudante de Full Stack Developer pela LetsCode.
                     </p>
                 </section>
 
                 <!--education-->
-                <section class="education section">
+                <section class="education section" id="education">
                     <h2 class="section-title">Education</h2>
                     <div class="education-container bd-grid">
                         <div class="education-content">
@@ -122,9 +122,9 @@
                                 <span class="education-line"></span>
                             </div>
                             <div class="education-data bd-grid">
-                                <h3 class="education-title">titulo</h3>
-                                <span class="education-studies">escola</span>
-                                <span class="education-year">2015</span>
+                                <h3 class="education-title">Web Full Stack</h3>
+                                <span class="education-studies">LetsCode</span>
+                                <span class="education-year">2022</span>
                             </div>
                         </div>
                     </div>
@@ -135,9 +135,9 @@
                                 <span class="education-line"></span>
                             </div>
                             <div class="education-data bd-grid">
-                                <h3 class="education-title">titulo</h3>
-                                <span class="education-studies">escola</span>
-                                <span class="education-year">2015</span>
+                                <h3 class="education-title">Engenharia de Produção Mecânica</h3>
+                                <span class="education-studies">Faculdade Annhanguera</span>
+                                <span class="education-year">20013-2018</span>
                             </div>
                         </div>
                     </div>
@@ -145,12 +145,11 @@
                         <div class="education-content">
                             <div class="education-time">
                                 <span class="education-round"></span>
-                                <span class="education-line"></span>
                             </div>
                             <div class="education-data bd-grid">
-                                <h3 class="education-title">titulo</h3>
-                                <span class="education-studies">escola</span>
-                                <span class="education-year">2015</span>
+                                <h3 class="education-title">Técnico de Administração</h3>
+                                <span class="education-studies">ETEC João Gomes de Araujo</span>
+                                <span class="education-year">2005-2006</span>
                             </div>
                         </div>
                     </div>
@@ -174,21 +173,37 @@
 
                         <ul class="skills-data">
                             <li class="skills-name">
-                                <span class="skills-circle"></span> HTML
+                                <span class="skills-circle"></span> NodeJS
                             </li>
                             <li class="skills-name">
-                                <span class="skills-circle"></span> CSS
+                                <span class="skills-circle"></span> Python
                             </li>
                             <li class="skills-name">
-                                <span class="skills-circle"></span> JavaScript
+                                <span class="skills-circle"></span> Excel
                             </li>
+                        </ul>
+                    </div>
+
+                <!--languages-->
+                <section class="languages section">
+                    <h2 class="section-title">languages</h2>
+                    <div class="languages-content bd-grid">
+                        <ul class="languages-data">
+                            <li class="languages-name">
+                                <span class="languages-circle"></span> Portuguese
+                        </ul>
+
+                        <ul class="languages-data">
+                            <li class="languages-name">
+                                <span class="languages-circle"></span> English
                         </ul>
                     </div>
                 </section>
             </div>
+
             <div class="resume-right">
                 <!--experiences-->
-                <section class="experience section">
+                <section class="experience section" id="experience">
                     <h2 class="section-title">Experience</h2>
                     <div class="experience-container bd-grid">
                         <div class="experience-content">
@@ -197,9 +212,9 @@
                                 <span class="experience-line"></span>
                             </div>
                             <div class="experience-data bd-grid">
-                                <h3 class="experience-title">cargo</h3>
-                                <span class="experience-company">empresa</span>
-                                <p class="experience-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident eveniet et possimus placeat qui vel sint sequi impedit perferendis tempora consectetur dolorum, id nemo quasi. Autem saepe nemo natus dolor!</p>
+                                <h3 class="experience-title">Assistente de PCP II</h3>
+                                <span class="experience-company">02/2006 - 12/2015 | Martifer Brasil Construções Metálicas </span>
+                                <p class="experience-description">Emissão e baixa de ordens de produção em SAP, relatórios de produção.</p>
                             </div>
                         </div>
                     </div>
@@ -207,12 +222,11 @@
                         <div class="experience-content">
                             <div class="experience-time">
                                 <span class="experience-round"></span>
-                                <span class="experience-line"></span>
                             </div>
                             <div class="experience-data bd-grid">
-                                <h3 class="experience-title">cargo</h3>
-                                <span class="experience-company">empresa</span>
-                                <p class="experience-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident eveniet et possimus placeat qui vel sint sequi impedit perferendis tempora consectetur dolorum, id nemo quasi. Autem saepe nemo natus dolor!</p>
+                                <h3 class="experience-title">Técnico de Planejamento II</h3>
+                                <span class="experience-company">12/2011 - 01/2013 | Tomé Engenharia</span>
+                                <p class="experience-description">Programação de veículos de içamento, relatórios HxH, relatórios de avanço de obra, controle de materiais do projeto</p>
                             </div>
                         </div>
                     </div>
@@ -223,26 +237,42 @@
                     <h2 class="section-title">Certificates</h2>
                     <div class="certificate-container bd-grid">
                         <div class="certificate-content"> 
-                            <h3 class="certificate-title">NOME DO CERTIFICADO</h3>
+                            <h3 class="certificate-title">HTML 5 e CSS 3</h3>
                             <p class="certificate-description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, et magni reprehenderit id laudantium quod cumque necessitatibus, autem aut, dignissimos voluptatum eius. Enim dolor optio autem sapiente, ea voluptas placeat.
+                                120h - Curso em Vídeo
                             </p>
                         </div>
                     </div>
                     <div class="certificate-container bd-grid">
                         <div class="certificate-content"> 
-                            <h3 class="certificate-title">NOME DO CERTIFICADO</h3>
+                            <h3 class="certificate-title">JavaScript</h3>
                             <p class="certificate-description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, et magni reprehenderit id laudantium quod cumque necessitatibus, autem aut, dignissimos voluptatum eius. Enim dolor optio autem sapiente, ea voluptas placeat.
+                                40h - Curso em Vídeo
                             </p>
                         </div>
                     </div>
                     <div class="certificate-container bd-grid">
                         <div class="certificate-content"> 
-                            <h3 class="certificate-title">NOME DO CERTIFICADO</h3>
+                            <h3 class="certificate-title">Python Basics</h3>
                             <p class="certificate-description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, et magni reprehenderit id laudantium quod cumque necessitatibus, autem aut, dignissimos voluptatum eius. Enim dolor optio autem sapiente, ea voluptas placeat.
+                                10h - LetsCode
                             </p>
+                        </div>
+                    </div>
+                    <div class="certificate-container bd-grid">
+                        <div class="certificate-content"> 
+                            <h3 class="certificate-title">Mundo Python</h3>
+                            <p class="certificate-description">
+                                120h - Curso em Vídeo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="certificate-container bd-grid">
+                        <div class="certificate-content"> 
+                            <h3 class="certificate-title">Excel Avançado</h3>
+                            <p class="certificate-description">
+                                20h - GW Cursos
+                            </p>    
                         </div>
                     </div>
                 </section>
@@ -257,7 +287,7 @@
                         </div>
                         <div class="interests-content">
                             <i class="bx bx-tv interests-icon"></i>
-                            <span class="interests-name">Séries</span>
+                            <span class="interests-name">Séries e Filmes</span>
                         </div>
                         <div class="interests-content">
                             <i class="bx bx-joystick interests-icon"></i>
@@ -272,7 +302,8 @@
             </div>
         </div>
     </main>
-    <a href="#" class="scrolltop" id="scroll-top"></a>
+    <a href="#" class="scrolltop" id="scroll-top">
         <i class="bx bx-up-arrow-alt" id="scrolltop-icon"></i>
+    </a>
 </body>
 </html>

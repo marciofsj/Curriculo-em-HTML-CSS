@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@600&display=swap");
+
 :root {
     --header-height: 3rem;
   
@@ -6,7 +8,7 @@
     --text-color: #403a3a;
     --text-color-light: #707070;
     --container-color: #fafafa;
-    --container-color-alt: #f0efef;
+    --container-color-alt: #d2d0db;
     --body-color: #fcfcfc;
   
     /*========== Font and typography ==========*/
@@ -128,7 +130,7 @@ img {
 }
 
 .nav-toggle {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 
@@ -217,7 +219,7 @@ img {
 }
 
 .social-container {
-    grid: max-content;
+    grid-template-columns: max-content;
     gap: 1rem;
 }
 
@@ -240,11 +242,14 @@ img {
 }
 
 .education-content, .experience-content {
-    display: flex;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    margin-bottom: 1.25rem;
 }
 
 .education-time, .experience-time {
     padding-right: 1rem;
+    margin-bottom: 0.1rem;
 }
 
 .education-round, .experience-round {
@@ -254,7 +259,7 @@ img {
     height: 16px;
     background-color: var(--text-color-light);
     border-radius: 50%;
-    margin-top: 0.25;
+    margin-top: 0.25rem;
 }
 
 .education-line, .experience-line {
@@ -278,32 +283,23 @@ img {
     color: var(--title-color);
 }
 
+.experience-description {
+    text-align: justify;
+}
+
 .education-year{
     font-size: var(--small-font-size) ;
 }
 
-.skills-content {
+.skills-content, .languages-content {
     grid-template-columns: repeat(2,1fr);
     gap: 0;
 }
 
-.skills-name {
+.skills-name, .languages-name {
     display: flex;
     align-items: center;
     margin-bottom: var(--mb-3);
-}
-
-.skill-circle {
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    background-color: var(--text-color);
-    border-radius: 50%;
-    margin-right: 0.75rem;
-}
-
-.experience-description {
-    text-align: justify;
 }
 
 .certificate-title {
@@ -314,6 +310,7 @@ img {
 .certificate-description {
     text-align: justify;
     text-indent: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .interests-container {
