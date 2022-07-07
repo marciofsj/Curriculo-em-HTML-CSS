@@ -379,7 +379,7 @@ img {
         background-color: var(--container-color-alt);
     }
 
-    .resume-left, .resume-rigth {
+    .resume-left, .resume-right {
         padding: 0 1.5rem;
     }
 
